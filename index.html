@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Torampedia</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <div class="h-100">
+                <div class="sidebar-logo">
+                    <a href="#">Torampedia</a>
+                </div>
+                <!-- Sidebar Navigation -->
+                <ul class="sidebar-nav">
+                    <li class="sidebar-header">
+                        Menu
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#pages"
+                            aria-expanded="false" aria-controls="pages">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            Item
+                        </a>
+                        <ul id="pages" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#weapons" class="sidebar-link">
+                                    <i class="fa-solid fa-sword"></i>
+                                    Weapons
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#armor" class="sidebar-link">Armor</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard"
+                            aria-expanded="false" aria-controls="dashboard">
+                            <i class="fa-solid fa-dragon"></i>
+                            Monster
+                        </a>
+                        <ul id="dashboard" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#normal" class="sidebar-link">Normal</a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#boss" class="sidebar-link">Boss</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!-- Main Component -->
+        <div class="main">
+            <nav class="navbar navbar-expand px-3 border-bottom">
+                <!-- Button for sidebar toggle -->
+                <button class="btn" type="button" data-bs-theme="dark">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <main class="content px-3 py-2">
+                <div class="container-fluid">
+                    <div class="md-7">
+                        <h3 class="mt-4">Welcome to Torampedia!!</h3>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <img src="warriors.png" alt="art" class="img-fluid">
+                        </div>
+                        <div class="col-md-5 mt-5">
+                            <div class="nt-4">
+                                <h4>Embark on a journey through the enchanting world of Toram Online with Torampedia - your ultimate guide to monsters, weapons, armor, and more. Whether you're a seasoned adventurer or just starting your quest, Torampedia is here to enhance your Toram Online experience. Explore the vast realm, discover powerful weapons, and strategize your battles. Let the adventure begin!</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="weapons" class="container mt-4">
+                    <h3 class="mb-4">Weapons</h3>
+                    <div class="row">
+                        <!-- Short Sword Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="shortsword.png" class="card-img-top" alt="Short Sword Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Short Sword</h5>
+                                    <p class="card-text">
+                                        <strong>Stats:</strong><br>
+                                        Base ATK: 10<br>
+                                        Base Stability %: 80
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- LongSword Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="longsword.png" class="card-img-top" alt="LongSword Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">LongSword</h5>
+                                    <p class="card-text">
+                                        <strong>Stats:</strong><br>
+                                        Base ATK: 17<br>
+                                        MaxHP: 50<br>
+                                        Accuracy: 1<br>
+                                        Base Stability %: 80
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Gladius Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="Gladius.png" class="card-img-top" alt="Gladius Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gladius</h5>
+                                    <p class="card-text">
+                                        <strong>Stats:</strong><br>
+                                        Base ATK: 25<br>
+                                        ASPD %: 10<br>
+                                        Critical Rate: 3<br>
+                                        Base Stability %: 80
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Brutal Dragon Sword Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="Brutal Dragon Sword.jpg" class="card-img-top" alt="Brutal Dragon Sword Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Brutal Dragon Sword</h5>
+                                    <p class="card-text">
+                                        <strong>Stats:</strong><br>
+                                        Base ATK: 27<br>
+                                        ASPD: 500<br>
+                                        CSPD: 500<br>
+                                        Base Stability %: 80
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="armor" class="container mt-4">
+                    <h3 class="mb-4">Armor</h3>
+                    <div class="row">
+                        <!-- Adventurer's Garb Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="garb.png" class="card-img-top" alt="Adventurer's Garb Image Placeholder">
+                                <div class="card-body">
+                                    <h5 class="card-title">Adventurer's Garb</h5>
+                                    <p class="card-text">
+                                        <strong>Stats:</strong><br>
+                                        Base DEF: 9<br>
+                                        MaxMP: 100
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Leather Armor Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="leather.jpg" class="card-img-top" alt="Leather Armor Image Placeholder">
+                                <div class="card-body">
+                                    <h5 class="card-title">Leather Armor</h5>
+                                    <p class="card-text">
+                                        <strong>Stats:</strong><br>
+                                        Base DEF: 11<br>
+                                        MaxHP: 50
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Mage Robe Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="mage.jpg" class="card-img-top" alt="Mage Robe Image Placeholder">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mage Robe</h5>
+                                    <p class="card-text">
+                                        <strong>Stats:</strong><br>
+                                        Base DEF: 15<br>
+                                        MaxMP: 70
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Warrior Mail Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="mail.jpg" class="card-img-top" alt="Warrior Mail Image Placeholder">
+                                <div class="card-body">
+                                    <h5 class="card-title">Warrior Mail</h5>
+                                    <p class="card-text">
+                                        <strong>Stats:</strong><br>
+                                        Base DEF: 15<br>
+                                        MaxHP: 70
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div id="normal" class="container mt-4">
+                    <h3 class="mb-4">Normal Monsters</h3>
+                    <div class="row">
+                        <!-- Pico Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="pico.jpg" class="card-img-top" alt="Pico Image Placeholder">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pico</h5>
+                                    <p class="card-text">
+                                        <strong>Spawn at:</strong><br>
+                                        Rakau Plains<br>
+                                        <strong>Item Drops:</strong><br>
+                                        Shortsword
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Raffy Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="rafi.jpg" class="card-img-top" alt="Raffy Image Placeholder">
+                                <div class="card-body">
+                                    <h5 class="card-title">Raffy</h5>
+                                    <p class="card-text">
+                                        <strong>Spawn at:</strong><br>
+                                        Rakau Plains<br>
+                                        <strong>Item Drops:</strong><br>
+                                        Bow
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Add these sections to your existing HTML -->
+
+                <div id="boss" class="container mt-4">
+                    <h3 class="mb-4">Boss Monsters</h3>
+                    <div class="row">
+                        <!-- Boss Colon Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="colon.jpg" class="card-img-top" alt="Boss Colon Image Placeholder">
+                                <div class="card-body">
+                                    <h5 class="card-title">Boss Colon</h5>
+                                    <p class="card-text">
+                                        <strong>Spawn at:</strong><br>
+                                        Land Under Development<br>
+                                        <strong>Item Drops:</strong><br>
+                                        [Normal Crysta] Boss Colon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Eerie Crystal Card -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="crystal.png" class="card-img-top" alt="Eerie Crystal Image Placeholder">
+                                <div class="card-body">
+                                    <h5 class="card-title">Eerie Crystal</h5>
+                                    <p class="card-text">
+                                        <strong>Spawn at:</strong><br>
+                                        Isthmus Of Kaus: Dragon's Den<br>
+                                        <strong>Item Drops:</strong><br>
+                                        [Material] Black Crystal Fragment<br>
+                                        [Material] Turbid Crystal<br>
+                                        [Material] Black Miasma
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                      
+            </main>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
