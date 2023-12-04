@@ -121,14 +121,18 @@ a.sidebar-link {
 .card {
     max-width: 300px; /* Adjust the max-width to your desired size */
     margin: auto; /* Center the card on the page */
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
     width: 100%; /* Make the image fill the card width */
     height: auto; /* Maintain aspect ratio */
 }
-
 
 
 
