@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Torampedia</title>
+    <style>
+        .center-card {
+            margin: 0 auto;
+            float: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <div class="h-100">
+                <div class="sidebar-logo">
+                    <a href="index.html">Torampedia</a>
+                </div>
+                <!-- Sidebar Navigation -->
+                <ul class="sidebar-nav">
+                    <li class="sidebar-header">
+                        Menu
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#pages"
+                            aria-expanded="false" aria-controls="pages">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            Item
+                        </a>
+                        <ul id="pages" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="index.html#weapons" class="sidebar-link">
+                                    <i class="fa-solid fa-sword"></i>
+                                    Weapons
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="index.html#armor" class="sidebar-link">Armor</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard"
+                            aria-expanded="false" aria-controls="dashboard">
+                            <i class="fa-solid fa-dragon"></i>
+                            Monster
+                        </a>
+                        <ul id="dashboard" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="index.html#normal" class="sidebar-link">Normal</a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="index.html#boss" class="sidebar-link">Boss</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Component -->
+        <div class="main">
+            <nav class="navbar navbar-expand px-3 border-bottom">
+                <!-- Button for sidebar toggle -->
+                <button class="btn" type="button" data-bs-theme="dark">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <main class="content px-3 py-2">
+                <div class="container mt-4">
+                    <h3 class="mb-4">Adventurer's Garb Description</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 mb-4 center-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Adventurer's Garb</h5>
+                                    <img src="garb.png" class="card-img-top" alt="Short Sword Image">
+                                    <p class="card-text">
+                                        <strong>Stat/Effect:</strong><br>
+                                        <table>
+                                            <tr>
+                                                <td>Base DEF:</td>
+                                                <td>9</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Max MP:</td>
+                                                <td>100</td>
+                                            </tr>
+                                        </table>
+                                    </p>
+                                    <p class="card-text">
+                                        <strong>Obtained From:</strong><br>
+                                        [NPC] Blacksmith : Zaldo
+
+                                    </p>
+                                    <p class="card-text"></p>
+                                    <strong>Map:</strong><br>
+                                    Sofya City: Blacksmith  
+                                    </p>
+                                    <p class="card-text">
+                                        <strong>Recipe:</strong><br>
+                                        Fee: 75 Spina<br>
+                                        Set: 1 pcs<br>
+                                        Level: 5<br>
+                                        Difficulty: 15<br>
+                                        Materials: 35x Birdwing
+                                                   40x Cloth
+                                    </p>
+                                    <p class="mb-4">
+                                        <strong>Description:</strong> Starting Armor in Toram Online. Decent Stats for Decent Start
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS script (if needed) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
