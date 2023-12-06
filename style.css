@@ -119,8 +119,8 @@ a.sidebar-link {
 }
 
 .card {
-    max-width: 300px; /* Adjust the max-width to your desired size */
-    margin: auto; /* Center the card on the page */
+    max-width: 300px; 
+    margin: auto; 
     transition: transform 0.3s ease-in-out;
 }
 
@@ -130,13 +130,11 @@ a.sidebar-link {
 }
 
 .card img {
-    width: 100%; /* Make the image fill the card width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
 
 
-
-/* Responsive */
 
 @media (min-width:768px) {
     .content {
